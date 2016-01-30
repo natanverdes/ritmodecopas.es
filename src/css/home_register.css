@@ -1,0 +1,50 @@
+#container{
+	width: 100%;
+}
+#register-form{
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+	#register-form-general{
+		width: 600px;
+		margin: 0 auto;
+	}
+		#register-form-general td{
+			width: 300px;
+		}
+	#register-form-specific{
+		margin-top: 50px;
+		height: 250px;
+		display: block;
+		font-size: 80%;
+	}
+		#register-form-specific > div{
+			position: relative;
+			/*display: inline-block;*/
+			width: 320px;
+			height: 180px;
+			float: left;
+			background-color: #B5B5B5;
+			opacity: 0.4;
+		}
+		#register-form-specific > .selected{
+			background-color: #E6EE9C !important;
+			opacity: 1;
+		}
+		#register-form-specific input, #register-form-specific select{
+			width: 140px;
+		}
+
+
+		.button{
+			position: absolute;
+			bottom: 0px;
+			right: 10px;
+		}
+
+		.button > input{
+			height: 25px;
+			width: 80px;
+		}
+#select-register-container{height: 18px;}

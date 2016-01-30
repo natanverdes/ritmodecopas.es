@@ -1,0 +1,8 @@
+#lista-conciertos, #lista-conciertos-add{
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+body > div table{
+	border-spacing: 5px;
+}

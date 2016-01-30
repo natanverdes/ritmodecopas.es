@@ -1,0 +1,20 @@
+#main{
+	text-align: center;
+}
+#main > #tipo{
+	font-size: 160%;
+}
+#main > #nombre{
+	font-family: 'Generica';
+	font-weight: bold;
+	font-size: 150%;
+}
+#main > #genero{
+
+}
+#main > #estrellas-medias{
+	margin-top: 50px;
+}
+#main > #votos{
+	margin-top: 150px;
+}
